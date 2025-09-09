@@ -76,7 +76,7 @@
 }
 
 .about-quality .card:hover{
-    transform: scale(1.02);
+    transform: scale(1.02) translateY(-2px);
     box-shadow: 0 0 10px rgba(225, 225, 225, 0.685);
 }
 
