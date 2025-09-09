@@ -1,3 +1,5 @@
+import Products from "./Products";
+
 export default function About(params) {
     return (
         <>
@@ -43,6 +45,7 @@ export default function About(params) {
                     </div>
                 </div>
             </div>
+            <Products/>
         </>
     );
 }

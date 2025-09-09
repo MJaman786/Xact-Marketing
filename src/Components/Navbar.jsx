@@ -23,7 +23,7 @@ export default function Navbar() {
                                     <a className="nav-link" aria-current="page" href="#about">About</a>
                                 </li>
                                  <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="#">Products</a>
+                                    <a className="nav-link" aria-current="page" href="#products">Products</a>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
