@@ -1,0 +1,93 @@
+.hero-container {
+    padding: 100px 20px;
+    background: linear-gradient(90deg, rgba(175, 234, 239, 1) 0%, rgba(156, 217, 254, 1) 50%, rgba(207, 173, 253, 1) 100%);
+}
+
+.hero-container .card {
+    background-color: transparent;
+    border: none;
+}
+
+.hero-container .card .card-title {
+    font-family: "Chillax";
+    /* font-family: "Poppins"; */
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.hero-container .card .card-text {
+    font-family: "Poppins";
+
+}
+
+@media (max-width:400px) {
+    .hero-container {
+        padding: 100px 0px;
+    }
+
+    .hero-container .card .card-title {
+        font-size: 6vw;
+    }
+}
+
+/* About Section */
+
+.about-container {
+    background-color: #f9f9ff;
+    padding: 100px 0px 0px 0px;
+}
+
+.about-container .card {
+    padding: 50px 0px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(225, 225, 225, 0.685);
+}
+
+.about-container .card .card-title {
+    font-family: "Chillax";
+    /* font-family: "Poppins"; */
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.about-container .card .card-text {
+    font-family: "Poppins";
+
+}
+/* about-quality */
+
+.about-quality {
+    background-color: #f9f9ff;
+    padding-bottom: 100px !important;
+}
+
+.about-quality .about-qualty-header{
+    font-family: "Poppins";
+    font-size: 3vw;
+}
+
+
+.about-quality .card {
+    padding: 50px 0px;
+    background-color: #fff;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.about-quality .card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(225, 225, 225, 0.685);
+}
+
+.about-quality .card .card-title {
+    font-family: "Chillax";
+    /* font-family: "Poppins"; */
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-quality .card .card-text {
+    font-family: "Poppins";
+
+}
