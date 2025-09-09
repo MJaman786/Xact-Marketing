@@ -2,14 +2,6 @@
 
 import { NavLink } from "react-router-dom";
 
-export const FacialTissue = ()=>{
-    return(
-        <>
-            <h1 className="mt-5 py-5">This is cont</h1>
-        </>
-    );
-}
-
 export const ProductCard = ({ id, title, img }) => {
     return (
         <>

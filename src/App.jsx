@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
 import Navbar from './Components/Navbar.jsx';
 import Hero from './Pages/Hero.jsx';
-import { FacialTissue } from './Pages/Products.jsx';
+import FacialTissue from './Pages/ProductsVarients/FaceTissue.jsx';
 
 export default function App() {
   return (
